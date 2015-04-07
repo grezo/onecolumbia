@@ -1992,6 +1992,7 @@ header {
     -webkit-font-smoothing: antialiased; }
 
 .js {
+  position: relative;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -1999,7 +2000,11 @@ header {
   background-size: cover;
   -webkit-font-smoothing: antialiased;
   padding-top: 10%;
-  padding-bottom: 15%; }
+  padding-bottom: 20%; }
+  @media (min-width: 768px) {
+    .js {
+      padding-top: 7%;
+      padding-bottom: 15%; } }
   @media (min-width: 1024px) {
     .js {
       padding-top: 7%;
@@ -2051,7 +2056,7 @@ header {
         margin-bottom: 5%; } }
     @media (min-width: 1024px) {
       #banner p {
-        font-size: 2em; } }
+        font-size: 1.7em; } }
   #banner span {
     font-weight: 400;
     font-style: italic; }
@@ -2078,6 +2083,44 @@ header {
     #banner {
       margin: 0 auto;
       max-width: 1024px; } }
+
+.bannerAwe1 {
+  position: absolute;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-size: 3.2em;
+  font-style: normal;
+  left: 5%;
+  text-shadow: 0px 0px 10px #000; }
+
+.bannerAwe2 {
+  position: absolute;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-size: 3.2em;
+  font-style: normal;
+  right: 5%;
+  text-shadow: 0px 0px 10px #000; }
+
+.slider {
+  margin-top: 2%;
+  color: #fff;
+  position: absolute;
+  font-family: 'FontAwesome';
+  font-size: .87em;
+  text-shadow: 0px 0px 10px #000;
+  left: 0px;
+  right: 0px;
+  bottom: 15%; }
+  @media (min-width: 430px) {
+    .slider {
+      font-size: 1.2em; } }
+  .slider ul {
+    padding: 0;
+    margin: 0 auto; }
+  .slider li {
+    display: inline-block;
+    list-style: none; }
 
 .eventMain {
   margin: 0 auto;
@@ -2115,7 +2158,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     font-weight: 400;
     letter-spacing: .30em;
@@ -2227,11 +2270,11 @@ select {
 .eventAwe {
   display: inline-block;
   font-family: 'FontAwesome';
-  font-size: 2.6em;
+  font-size: 2.5em;
   margin-right: 15px; }
   .eventAwe a {
     text-decoration: none;
-    color: #414141;
+    color: #969696;
     -webkit-font-smoothing: antialiased; }
 
 .eventButton {
