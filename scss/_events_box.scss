@@ -1,0 +1,76 @@
+.eventWrap {
+	margin: 0 5%;
+}
+
+.eventDate {
+	margin: 0 auto;
+	width: 25%;
+	height: 220px;
+	display: block;
+	float: left;
+
+	h3 {
+		font-size: 4em;
+		font-weight: 700;
+		color: #232323;
+		margin: 0;
+		padding: 0;
+		padding-top: 45%;
+	}
+	h6 {
+		color: #232323;
+		margin: 0;
+		padding: 0;
+		font-size: 1.4em;
+	}
+}
+
+.eventBox {
+	box-sizing: border-box;
+	font-family: 'Droid Serif', serif;
+	color: #fff;
+	width: 75%;
+	height: 220px;
+	display: block;
+	background: #232323;
+	margin: 0 auto;
+	float: left;
+	padding: 0 3%;
+	text-align: center;
+	margin-bottom: 1px;
+	
+	h4 {
+		font-size: 1.5em;
+	}
+	p {
+		font-family: 'Montserrat', sans-serif;
+	}
+	a {
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+	}
+
+}
+
+.dateBlue {
+	background: #6dcff6;
+}
+.datePurple {
+	background: #a186be;
+}
+.dateYellow {
+	background: #fff568;
+}
+.datePink {
+	background: #f49ac1;
+}
+.dateBlue {
+	background: #6dcff6;
+}
+.dateGreen {
+	background: #acd373;
+}
+.dateOrange {
+	background: #f68e56;
+}

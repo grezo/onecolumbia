@@ -1,0 +1,61 @@
+
+
+.eventMain {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	margin-bottom: 15px;
+	background: none;
+	
+
+	@include tablet {
+		max-width: 1023px;
+		}
+	@include desktop {
+		max-width: 1024px;
+		}
+	
+	h2 {
+		font-size: 2.25em;
+		color: $darkgrey;
+		margin-bottom: 3%;
+	}
+	h3 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		padding: 0;
+		font-size: 1.87em;
+		font-weight: 400;
+		color: $darkgrey;
+	}
+	p {
+		display: block;
+		font-size: .87em;
+	}
+	a {
+		width: 100%;
+		padding: 0;
+		padding-top: 5px;
+		height: 28px;
+		display: inline-block;
+		text-decoration: none;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.2em;
+		font-weight: 400;
+		letter-spacing: .30em;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+	}
+}
+
+select {
+	width: 200px;
+	height: 25px;
+	font-size: 2em;
+	margin-bottom: 25px;
+}
+

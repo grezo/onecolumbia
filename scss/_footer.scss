@@ -1,0 +1,224 @@
+footer {
+	position: relative;
+	padding-top: 3%;
+	background: url(../images/footer.jpg) no-repeat;
+	background-size: cover;
+	background-color: #121212;
+
+
+	div {
+		-webkit-font-smoothing: antialiased;
+	}
+
+	h4 {
+		font-size: 1em;
+		color: #fff;
+		-webkit-font-smoothing: antialiased;
+		letter-spacing: 3px;
+		text-align: center;
+
+		@include desktop {
+			font-size: 1.1em;
+		}
+	}
+
+	p {
+		color: #fff;
+		clear: left;
+		border-bottom: solid 1px #2e2e2e;
+		padding: 15px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: .87em;
+		-webkit-font-smoothing: antialiased;
+
+		@include desktop {
+			margin-left: 5%;
+			float: left;
+			border-bottom: none;
+		}
+	}
+
+	ul {
+		max-width: 1024px;
+		text-align: center;
+	}
+
+	li {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		list-style: none;
+	}
+	a {
+		margin: 0;
+		padding: 0;
+		font-size: .87em;
+		color: #8e8e8e;
+		text-decoration: none;
+		font-family: 'FontAwesome';
+		-webkit-font-smoothing: antialiased;
+
+		@include desktop {
+			font-size: 1em;
+		}
+	}
+}
+
+.footerContain {
+	margin: 0 auto;
+	text-align: center;
+
+	@include desktop {
+		max-width: 1024px;
+	}
+}
+
+.footerFloat {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40%;
+
+	text-align: left;
+
+	@include tablet {
+		width: 20%;
+	}
+
+	@include desktop {
+		margin-bottom: 4%;
+		width: 24%;
+	}
+}
+
+.footerLinks {
+	padding: 0;
+}
+
+.footerAwe {
+	ul {
+		padding: 0 0 20px;
+		margin: 0;
+		text-align: center;
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		height: 40px;
+		margin-right: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #fff;
+		-webkit-font-smoothing: antialiased;
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: -9999px;
+		position: relative;  // Font awesome technique with SASS.  You must text-indent the text then absolutely position the pseudo element to top: 0px / right: 0px to get the icon to show up. //  
+
+		&:hover {
+			color: #fff;
+		}
+
+		&:before {
+			margin: 0 auto;
+			font-family: 'FontAwesome';
+			-webkit-font-smoothing: antialiased;
+			content: $fa-var-facebook-square;
+			font-size: 2.4em;
+			display: block;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top:0; left: 0;
+			text-indent: 0;
+			line-height: 40px;
+		}
+	}
+
+	@include desktop {
+		float: right;
+		margin-right: 5%;
+		font-size: .75em;
+	}
+
+	li {
+		display: inline-block;
+	}
+	a {
+		letter-spacing: 20px;
+	}
+
+	@include desktop {
+		text-align: center;
+	}
+}
+
+
+
+/* ====================SOCIAL ICONS==================== */
+
+
+
+
+.facebook {
+
+	a:before {
+		content: $fa-var-facebook;
+	}
+}
+
+.twitter {
+
+	a:before {
+		content: $fa-var-twitter;
+	}
+}
+
+.instagram {
+
+	a:before {
+			content: $fa-var-instagram;
+		}
+}
+
+.reddit {
+
+	a:before {
+			content: $fa-var-reddit;
+		}
+}
+
+.flickr {
+
+	a:before {
+		content: $fa-var-flickr;
+	}
+}
+
+.iconNone {
+	margin-left: 5%;
+
+	@include desktop {
+		margin-left: 0;
+	}
+}
+
+
+
+
+.greenAwe {
+	color: #fff;
+}
+.blueAwe {
+	color: #fff;
+}
+.pinkAwe {
+	color: #fff;
+}
+.orangeAwe {
+	color: #fff;
+	letter-spacing: 0px;
+}

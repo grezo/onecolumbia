@@ -1,0 +1,209 @@
+main {
+	clear: both;
+	background: #ececec;
+}
+
+
+.content {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	margin-bottom: 15px;
+	margin-top: 5%;
+
+	h2 {
+		font-size: 1.70em;
+		letter-spacing: -2px;
+		font-weight: 800;
+		color: $darkgrey;
+		margin-top: 12%;
+		margin-bottom: 10%;
+
+		@include small {
+			font-size: 2.5em;
+		}
+
+		@include tablet {
+			margin-top: 8%;
+			margin-bottom: 8%;
+		}
+
+		@include desktop {
+			margin-top: 6%;
+			margin-bottom: 6%;
+		}
+
+	}
+
+	h3 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+		padding: 0;
+		font-size: 1.87em;
+		font-weight: 400;
+		color: $darkgrey;
+	}
+	p {
+		font-size: .87em;
+		text-shadow: 0px 0px 10px #000;
+
+		@include smallish {
+			font-size: 1em;
+		}
+
+		@include desktop {
+			font-size: .87em;
+		}
+	}
+	a {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: inline-block;
+		text-decoration: none;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.2em;
+		font-weight: 700;
+		letter-spacing: .30em;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+
+		@include small {
+			font-size: 1.2em;
+		}
+	}
+
+	@include tablet {
+		max-width: 1023px;
+	}
+	@include desktop {
+		max-width: 1024px;
+	}
+}
+
+.pink {
+	background-color: #ff6ebe;
+}
+.violet{
+	background-color: #e56bff;
+}
+.blue {
+	background-color: #3ac2e9;
+}
+.green {
+	background-color: #52d35e;
+}
+.moreButton {
+	margin: 0 auto;
+	display: block;
+	clear: left;
+	padding: 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 15%;
+
+	@include small {
+		margin-top: 2;
+		margin-bottom: 5%;
+	}
+
+	@include smallish {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	@include tablet {
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	@include desktop {
+		margin-top: 0;
+		margin-bottom: 7%;
+	}
+	
+	a {
+	display: inline-block;
+	padding: 5%;
+	width: 85%;
+	color: #fff;
+	font-weight: 700;
+	background-color: #fe5a5a;
+	text-decoration: none;
+	letter-spacing: .30em;
+	-webkit-font-smoothing: antialiased;
+		
+		@include small {
+			width: 55%;
+			padding: 3%;
+			margin-bottom: 10%;
+		}
+
+		@include tablet {
+			width: 55%;
+			padding: 3%;
+			margin-bottom: 7%;
+		}
+
+		@include desktop {
+			width: 275px;
+			padding: 20px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.pDesktop {
+	display: none;
+
+	@include smallish {
+		color: #fff;
+		padding-right: 30px;
+		padding-left: 30px;
+		margin: 0 auto;
+		position: absolute;
+		left: 0px;
+		right: 0 px;
+		bottom: 85px;
+		display: inline-block;
+	}
+	@include desktop {
+		bottom: 125px;
+	}
+}
+.view {
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	bottom: 50px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #fff;
+	letter-spacing: 3px;
+	text-shadow: 0px 0px 15px #fff;
+
+	@include small {
+		font-size: .87em;
+	}
+	@include smallish {
+		bottom: 15px;
+		border-top: solid 1px #fff;
+		padding-top: 14px;
+	}
+	@include desktop {
+		bottom: 55px;
+	}
+}
+
+
+

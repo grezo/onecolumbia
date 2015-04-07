@@ -1,0 +1,63 @@
+.eventsBanner {
+	margin: 0 auto;
+	text-align: center;
+	padding: 75px;
+	max-width: 100%;
+	background: url(../images/music_banner.png) no-repeat #232323;
+	background-size: cover;
+	overflow: hidden;
+
+	h2 {
+		font-family: 'Droid Serif', serif;
+		color: #fff;
+		-webkit-font-smoothing: antialiased;
+		font-size: 3.2em;
+		font-weight: 400;
+		padding: 0;
+		margin: 0;
+		margin-bottom: -10px;
+		letter-spacing: 7px;
+	}
+	h3 {
+		font-family: 'Montserrat', sans-serif;
+		color: #fff;
+		-webkit-font-smoothing: antialiased;
+		font-size: 1.5em;
+		font-weight: 400;
+		padding: 0;
+		margin: 0;
+		letter-spacing: 5px;
+	}
+}
+
+.eventsMenu {
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px;
+	padding-bottom: 65px;
+	background: #232323;
+
+	h4 {
+		padding: 0;
+		margin: 0;
+		-webkit-font-smoothing: antialiased;
+		font-family: 'Droid Serif' serif;
+		font-size: 1.5em;
+		color: #fff;
+		margin-bottom: 15px;
+	}
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		list-style: none;
+	}
+	a {
+		color: #919191;
+		text-decoration: none;
+		font-size: 1.2em;
+		line-height: 1.5;
+		-webkit-font-smoothing: antialiased;
+	}
+}

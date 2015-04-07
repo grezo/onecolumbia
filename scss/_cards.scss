@@ -1,0 +1,114 @@
+.catwrapper {
+	max-width: 1024px;
+
+	@include desktop {
+		padding: 0 8px;
+	}
+}
+
+
+.cardrow1 {
+	display: inline-block;
+	box-sizing: border-box;
+	max-width: 85%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 7%;
+
+	@include small {
+		margin-right: 5%;
+		max-width: 40%;
+		margin-bottom: 4%;
+	}
+
+	@include smallish {
+		height: 400px;
+		max-width: 47%;
+	}
+
+	@include tablet {
+		margin-right: 5%;
+		max-width: 35%;
+	}
+
+	@include desktop {
+		margin-right: 2%;
+		max-width: 20%;
+		margin-bottom: 0;
+	}
+}
+.cardrow2 {
+	display: inline-block;
+	box-sizing: border-box;
+	max-width: 85%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 7%;
+
+	@include small {
+		margin-right: 5%;
+		max-width: 40%;
+		margin-bottom: 4%;
+	}
+
+	@include smallish {
+		height: 400px;
+		max-width: 47%;
+	}
+
+	@include tablet {
+		max-width: 35%;
+		margin-right: 5%;
+	}
+
+	@include desktop {
+		margin-bottom: 0;
+		max-width: 20%;
+		margin-right: 2%;
+	}
+}
+
+
+.none {
+
+	@include small {
+		margin-right: 0;
+	}
+
+	@include tablet {
+		margin-right: 5%;
+	}
+
+	@include desktop {
+		margin-right: 2%;
+	}
+}
+
+.artNone {
+
+	@include tablet {
+		margin-right: 0;
+	}
+}
+
+.litNone {
+	@include smallish {
+		margin-right: 0;
+	}
+	@include desktop {
+		margin-right: 2%;
+	}
+}
+
+.imgLg {
+	display: none;
+
+	@include smallish {
+		display: inline-block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}
