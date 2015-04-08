@@ -1946,7 +1946,7 @@ header {
   background-size: cover;
   overflow: hidden; }
   .eventsBanner h2 {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     font-size: 3.2em;
@@ -1956,13 +1956,14 @@ header {
     margin-bottom: -10px;
     letter-spacing: 7px; }
   .eventsBanner h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 400;
     padding: 0;
     margin: 0;
+    margin-top: 2%;
     letter-spacing: 5px; }
 
 .eventsMenu {
@@ -1975,7 +1976,9 @@ header {
     padding: 0;
     margin: 0;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Droid Serif' serif;
+    font-family: 'Open Sans' sans-serif;
+    letter-spacing: -2px;
+    font-weight: 700;
     font-size: 1.5em;
     color: #fff;
     margin-bottom: 15px; }
@@ -2124,8 +2127,7 @@ header {
 
 .eventMain {
   margin: 0 auto;
-  width: 100%;
-  max-width: 500px;
+  width: 90%;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 15px;
@@ -2137,7 +2139,9 @@ header {
     .eventMain {
       max-width: 1024px; } }
   .eventMain h2 {
+    letter-spacing: -3px;
     font-size: 2.25em;
+    font-weight: 800;
     color: #232323;
     margin-bottom: 3%; }
   .eventMain h3 {
@@ -2173,30 +2177,35 @@ select {
   margin-bottom: 25px; }
 
 .eventWrap {
-  margin: 0 5%; }
+  margin: 0 5%;
+  height: 220px; }
 
 .eventDate {
   margin: 0 auto;
   width: 25%;
-  height: 220px;
   display: block;
-  float: left; }
+  float: left;
+  margin-bottom: 2%; }
   .eventDate h3 {
-    font-size: 4em;
-    font-weight: 700;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: -3px;
     color: #232323;
     margin: 0;
     padding: 0;
-    padding-top: 45%; }
+    padding-top: 100%; }
   .eventDate h6 {
     color: #232323;
     margin: 0;
     padding: 0;
     font-size: 1.4em; }
 
+.dateContain {
+  height: 220px; }
+
 .eventBox {
   box-sizing: border-box;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   width: 75%;
   height: 220px;
@@ -2204,11 +2213,18 @@ select {
   background: #232323;
   margin: 0 auto;
   float: left;
-  padding: 0 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
   text-align: center;
-  margin-bottom: 1px; }
+  margin-bottom: 2%; }
   .eventBox h4 {
-    font-size: 1.5em; }
+    padding: 0;
+    margin: 0 auto;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 1.1em; }
   .eventBox p {
     font-family: 'Montserrat', sans-serif; }
   .eventBox a {

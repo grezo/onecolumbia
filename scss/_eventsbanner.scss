@@ -8,7 +8,7 @@
 	overflow: hidden;
 
 	h2 {
-		font-family: 'Droid Serif', serif;
+		font-family: 'Open Sans', sans-serif;
 		color: #fff;
 		-webkit-font-smoothing: antialiased;
 		font-size: 3.2em;
@@ -19,13 +19,14 @@
 		letter-spacing: 7px;
 	}
 	h3 {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: #fff;
 		-webkit-font-smoothing: antialiased;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		font-weight: 400;
 		padding: 0;
 		margin: 0;
+		margin-top: 2%;
 		letter-spacing: 5px;
 	}
 }
@@ -41,7 +42,9 @@
 		padding: 0;
 		margin: 0;
 		-webkit-font-smoothing: antialiased;
-		font-family: 'Droid Serif' serif;
+		font-family: 'Open Sans' sans-serif;
+		letter-spacing: -2px;
+		font-weight: 700;
 		font-size: 1.5em;
 		color: #fff;
 		margin-bottom: 15px;
